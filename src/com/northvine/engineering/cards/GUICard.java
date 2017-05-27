@@ -77,7 +77,7 @@ public class GUICard
          {
             for(int valueIndex = 0; valueIndex < Card.LEGAL_VALUES.length; valueIndex++)
             {
-               iconCards[valueIndex][suitIndex] = new ImageIcon(String.format("%s%s%s.gif", IMAGES_DIR, Card.Suit.valueOf(suitIndex), Card.LEGAL_VALUES[valueIndex]));
+               iconCards[valueIndex][suitIndex] = new ImageIcon(String.format("%s%s%s.gif", IMAGES_DIR, Card.Suit.valueOf(suitIndex), Card.LEGAL_VALUES[valueIndex])); //TODO fix naming bug
             }
          }
 
